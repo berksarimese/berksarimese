@@ -5,6 +5,26 @@
     background: linear-gradient(94deg, rgba(53,61,64,1) 0%, rgba(14,21,29,1) 100%);
 }
 
+div {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
 a {
 	outline: none;
 	text-decoration: none;
@@ -30,8 +50,9 @@ a {
     font-family: Teko;
     font-size: 12vw;
     font-weight: 800;
-    color: white;
+    color: #EAFC88;
     line-height: 0.17;
+    letter-spacing: 40px;
 }
 
 .t-style-1 {
@@ -70,16 +91,49 @@ a {
     background-color: #EAFC88;
 }
 
+.burger {
+    width: 150px;
+    top: 5%;
+    left: -150px;
+    border: 1px solid #EAFC88;
+    border-left: none;
+}
+
+.burger-open {
+    left: 0px;
+}
+
+.burger-button {
+    height: 50px; 
+    width: 50px; 
+    top: -1px;
+    right: -50px;
+    color: #EAFC88;
+    box-sizing: border-box;
+    border: 1px solid #EAFC88;
+}
+
+.border-style {
+    box-sizing: border-box;
+    border-right: solid 2px rgba(248, 249, 250, 0.2);
+}
+
+.burger-button:hover {
+    background-color: #EAFC88;
+    color: black;
+    cursor: pointer;
+}
+
 .yellow {
     color: #EAFC88;
 }
 
-.pink {
-    color: #DE5F56;
+.red {
+    color: #ed321a;
 }
 
 .purple {
-    color: #A800B0;
+    color: #ba06ce;
 }
 
 .green {
@@ -109,6 +163,11 @@ a {
         font-family: Teko;
         font-size: 3vw; 
         color: white;
+    }
+
+    .line-title {
+        font-size: 12vw;
+        letter-spacing: 10px;
     }
 
  }
