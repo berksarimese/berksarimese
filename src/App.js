@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Return from "./components/Return";
-import Tesxtslider from "./components/Textslider";
 import './styles/App.css'
 import hero from './media/hero.jpg'
 import bgone from './media/bgone.jpg'
@@ -36,7 +35,7 @@ function App() {
       </div>
 
       
-      <div className="position-relative d-flex flex-column justify-content-center align-items-center box-height" style={{backgroundImage:`url(${bgone})`, backgroundRepeat:'no-repeat', backgroundSize:'cover', height:'70vh'}}>
+      <div className="position-relative d-flex flex-column justify-content-center align-items-center box-height" style={{backgroundImage:`url(${bgone})`, backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'cover', height:'70vh'}}>
         <div className="d-flex flex-column h-100" style={{backgroundColor:'rgba(0,0,0,0.4)'}}>
           <div className="text-center line-title">ABOUT-ME</div>
           <div className="d-flex justify-content-center " style={{paddingTop:'80px'}}>
@@ -57,7 +56,7 @@ function App() {
       </div>
       
       <Return scrollY = {scrollY} />
-      <Textslider text = 'PATATES' />
+      <Textslider text = 'WEB' text2 = 'PROJECTS' />
     </div>
   );
 }
