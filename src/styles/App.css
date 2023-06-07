@@ -97,6 +97,8 @@ a {
     left: -150px;
     border: 1px solid #EAFC88;
     border-left: none;
+    background: rgba(0, 0, 0, 0.2);
+    transition-duration: 500ms;
 }
 
 .burger-open {
@@ -111,6 +113,7 @@ a {
     color: #EAFC88;
     box-sizing: border-box;
     border: 1px solid #EAFC88;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .border-style {
@@ -146,10 +149,11 @@ a {
 
 .project-title {
     font-family: Teko;
-    font-size: 3vw;
+    font-size: 2.2vw;
     font-weight: 500;
     color: white;
     background-color: black; 
+    white-space: nowrap
 }
 
 .project-text {
@@ -157,6 +161,28 @@ a {
     font-size: 1.5vw;
     font-weight:400;
     color: black;
+    padding-right: 10px;
+}
+
+.project-opacity {
+    opacity: 1;
+}
+
+.project-opacity:hover {
+    opacity: 0.8;
+}
+
+.project-link {
+    width: 8%;
+    background: #C2FE0C;
+    color: black;
+    font-weight: 400;
+    writing-mode: vertical-rl;
+}
+
+.project-link:hover {
+    color: white;
+    background: black;
 }
 
 .scroll {
@@ -166,7 +192,7 @@ a {
 
 .scroll div {
     color: #000;
-    font-size: 4em;
+    font-size: 3em;
     background: #C2FE0C;
     white-space: nowrap;
     font-weight: 900;
@@ -234,10 +260,19 @@ a {
         letter-spacing: 10px;
     }
 
+    .project-title {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    .project-text {
+        font-size: 18px;
+        font-weight:400;
+    }
+
  }
 
  @media (max-width:576px) { 
-
 
     .box-height {
         height: 50vh;
@@ -247,6 +282,15 @@ a {
         font-family: Teko;
         font-size: 20px; 
         color: white;
+    }
+
+    .project-title {
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .project-text {
+        font-size: 3.7vw;
     }
 
  }
