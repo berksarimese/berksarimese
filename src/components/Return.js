@@ -19,7 +19,7 @@ import '../styles/App.css'
   }
 
   return (
-    <div className={`position-fixed d-flex justify-content-center w-100 ${makeVisible ? '' : 'd-none'}`}  style={{bottom:'5px'}}>
+    <div className={`position-fixed d-flex justify-content-center w-100 ${makeVisible ? '' : 'd-none'}`}  style={{bottom:'5px', zIndex:'999'}}>
       <div className='container d-flex flex-direciton-row' style={{maxHeight:'40px'}}>
       <div className='col-3 p-3' style={{borderRight:'1px solid #EAFC88', borderLeft:'1px solid #EAFC88'}}></div>
       <div className='col-6 px-2' style={{}}>
@@ -32,6 +32,10 @@ import '../styles/App.css'
         <a href='#' className='nav-item'>WEB PROJECTS</a>
         <a href='#' className='nav-item'>GAME PROJECTS</a>
         <a href='#' className='nav-item'>CONTACT</a>
+        <a href='#' className='nav-item'></a>
+        <a href='#' className='nav-item'>LINKED IN</a>
+        <a href='#' className='nav-item'>GITHUB</a>
+        <a href='#' className='nav-item'>SOCIAL</a>
         <div onClick={() => (burgerOpen())} className='position-absolute d-flex justify-content-center align-items-center t-style-1 burger-button' style={{fontSize:'18px'}}> |-//-| </div>
       </div>
     </div>

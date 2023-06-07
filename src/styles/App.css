@@ -91,13 +91,17 @@ a {
     background-color: #EAFC88;
 }
 
+.about-padding {
+    padding-top: 80px;
+}
+
 .burger {
     width: 150px;
-    top: 5%;
+    top: 2%;
     left: -150px;
     border: 1px solid #EAFC88;
     border-left: none;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     transition-duration: 500ms;
 }
 
@@ -113,7 +117,7 @@ a {
     color: #EAFC88;
     box-sizing: border-box;
     border: 1px solid #EAFC88;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .border-style {
@@ -270,6 +274,10 @@ a {
         font-weight:400;
     }
 
+    .about-padding {
+        padding-top: 40px;
+    }
+
  }
 
  @media (max-width:576px) { 
@@ -291,6 +299,10 @@ a {
 
     .project-text {
         font-size: 3.7vw;
+    }
+
+    .about-padding {
+        padding-top: 20px;
     }
 
  }
