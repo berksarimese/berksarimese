@@ -23,19 +23,19 @@ import '../styles/App.css'
       <div className='container d-flex flex-direciton-row' style={{maxHeight:'40px'}}>
       <div className='col-3 p-3' style={{borderRight:'1px solid #EAFC88', borderLeft:'1px solid #EAFC88'}}></div>
       <div className='col-6 px-2' style={{}}>
-      <a href='#' className='nav-title text-center' style={{borderBottom:'solid 1px #EAFC88'}}>{makeVisible}GO BACK TO START</a>
+      <a href='#' className='nav-title text-center' style={{borderBottom:'solid 1px #EAFC88', background: 'rgba(0, 0, 0, 0.3)'}}>{makeVisible}GO BACK TO START</a>
       </div>     
       <div className='col-3' style={{borderLeft:'1px solid #EAFC88',borderRight:'1px solid #EAFC88'}}></div>
       </div>
       <div className={`position-fixed px-1 py-2 noselect burger ${burger ? 'burger-open' : ''}`}>
-        <a href='#' className='nav-item'>ABOUT ME</a>
-        <a href='#' className='nav-item'>WEB PROJECTS</a>
-        <a href='#' className='nav-item'>GAME PROJECTS</a>
-        <a href='#' className='nav-item'>CONTACT</a>
-        <a href='#' className='nav-item'></a>
-        <a href='#' className='nav-item'>LINKED IN</a>
-        <a href='#' className='nav-item'>GITHUB</a>
-        <a href='#' className='nav-item'>SOCIAL</a>
+        <a href='#' className='burger-item'>ABOUT ME</a>
+        <a href='#' className='burger-item'>WEB PROJECTS</a>
+        <a href='#' className='burger-item'>GAME PROJECTS</a>
+        <a href='#' className='burger-item'>CONTACT</a>
+        <a href='#' className='burger-item'></a>
+        <a href='#' className='burger-item'>LINKED IN</a>
+        <a href='#' className='burger-item'>GITHUB</a>
+        <a href='#' className='burger-item'>SOCIAL</a>
         <div onClick={() => (burgerOpen())} className='position-absolute d-flex justify-content-center align-items-center t-style-1 burger-button' style={{fontSize:'18px'}}> |-//-| </div>
       </div>
     </div>
