@@ -180,6 +180,7 @@ function App() {
                     <img src={ohsheep} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
+                  
                   <div className="project-text"> oh sheep! is a <span className="purple">mini fast paced arcade game</span> where you gather and protect sheep from monstrous creatures for the highest score! 
                     it's a game jam product developed by two different team which is four people gathered in the Jam field. <span className="purple">My role was animation 
                     and guidance.</span></div>
