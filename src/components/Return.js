@@ -15,7 +15,6 @@ import '../styles/App.css'
 
   function burgerOpen() {
     if (burger === true) { setBurger(false )} else { setBurger(true) }
-    console.log(burger);
   }
 
   return (

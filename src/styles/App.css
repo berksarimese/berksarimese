@@ -62,6 +62,21 @@ a {
     color: white;
 }
 
+.video-size {
+    height: 80vh;
+}
+
+.video-title {
+    top: 30px;
+    left: 30px;
+    font-family: Teko;
+    font-size: 12vw;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+    letter-spacing: 0px;
+}
+
 .nav-title {
     font-family: Teko;
     font-size: 20px;
@@ -105,6 +120,18 @@ a {
     width: 30%;
     background: #C2FE0C;
     padding: 5px;
+    color: black;
+}
+
+.about-button:hover {
+    background: black;
+    color: #C2FE0C;
+}
+
+.about-shadow {
+    -webkit-box-shadow: inset 0px -200px 121px 200px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px -200px 121px 200px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -200px 121px 200px rgba(0,0,0,0.75);
 }
 
 .burger {
@@ -329,6 +356,24 @@ a {
         font-weight: 100;
     }
 
+    .about-shadow {
+        -webkit-box-shadow: inset 0px -200px 121px 150px rgba(0,0,0,0.75);
+        -moz-box-shadow: inset 0px -200px 121px 150px rgba(0,0,0,0.75);
+        box-shadow: inset 0px -200px 121px 150px rgba(0,0,0,0.75);
+    }
+
+    .video-title {
+        top: 30px;
+        left: 10px;
+        font-family: Teko;
+        font-size: 12vw;
+        font-weight: 800;
+        color: white;
+        line-height: 1;
+        letter-spacing: 0px;
+        writing-mode: vertical-rl;
+    }
+
  }
 
  @media (max-width:576px) { 
@@ -363,5 +408,34 @@ a {
         width: 50%;
         background: #C2FE0C;
         padding: 5px;
+    }
+
+    .about-shadow {
+        -webkit-box-shadow: inset 0px -200px 121px 10px rgba(0,0,0,0.75);
+        -moz-box-shadow: inset 0px -200px 121px 10px rgba(0,0,0,0.75);
+        box-shadow: inset 0px -200px 121px 10px rgba(0,0,0,0.75);
+    }
+
+    .video-title {
+        top: 30px;
+        left: 30px;
+        font-family: Teko;
+        font-size: 12vw;
+        font-weight: 800;
+        color: white;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+
+    .video-title {
+        top: 30px;
+        left: 10px;
+        font-family: Teko;
+        font-size: 12vw;
+        font-weight: 800;
+        color: white;
+        line-height: 1;
+        letter-spacing: 0px;
+        writing-mode: vertical-rl;
     }
  }
