@@ -10,14 +10,14 @@ const Gamevideo = () => {
         <div className='position-absolute video-title'>game teaser <span className='green'>///</span></div>
 
         <div className="position-absolute bg-light" style={{zIndex:'1', height:'1%', width:'25%', top:'0px', left:'0%'}}></div>
-        <div className="position-absolute bg-light" style={{zIndex:'1', height:'3%', width:'25%', top:'0px', left:'25%'}}></div>
-        <div className="position-absolute bg-light" style={{zIndex:'1', height:'2%', width:'25%', top:'0px', left:'50%'}}></div>
-        <div className="position-absolute bg-light" style={{zIndex:'1', height:'4%', width:'25%', top:'0px', left:'75%'}}></div>
+        <div className="position-absolute bg-light" style={{zIndex:'1', height:'2%', width:'25%', top:'0px', left:'25%'}}></div>
+        <div className="position-absolute bg-light" style={{zIndex:'1', height:'1%', width:'25%', top:'0px', left:'50%'}}></div>
+        <div className="position-absolute bg-light" style={{zIndex:'1', height:'2%', width:'25%', top:'0px', left:'75%'}}></div>
 
-        <div className="position-absolute bg-green" style={{zIndex:'1', height:'4%', width:'25%', bottom:'0px', left:'0%'}}></div>
-        <div className="position-absolute bg-green" style={{zIndex:'1', height:'2%', width:'25%', bottom:'0px', left:'25%'}}></div>
-        <div className="position-absolute bg-green" style={{zIndex:'1', height:'3%', width:'25%', bottom:'0px', left:'50%'}}></div>
-        <div className="position-absolute bg-green" style={{zIndex:'1', height:'5%', width:'25%', bottom:'0px', left:'75%'}}></div>
+        <div className="position-absolute bg-green" style={{zIndex:'1', height:'2%', width:'25%', bottom:'0px', left:'0%'}}></div>
+        <div className="position-absolute bg-green" style={{zIndex:'1', height:'1%', width:'25%', bottom:'0px', left:'25%'}}></div>
+        <div className="position-absolute bg-green" style={{zIndex:'1', height:'2%', width:'25%', bottom:'0px', left:'50%'}}></div>
+        <div className="position-absolute bg-green" style={{zIndex:'1', height:'1%', width:'25%', bottom:'0px', left:'75%'}}></div>
       </div>
   )
 }

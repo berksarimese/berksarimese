@@ -19,7 +19,7 @@ const Webprojects = () => {
                 <div className="d-inline-block justify-content-center align-items-center flex-column py-2">
                   <div className="d-inline project-title px-2">PROJECT WEATHER</div>
                   <div className="d-flex h-100 py-1">
-                    <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                    <a href="https://projectweather.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
                     <img src={projectweather} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
@@ -31,7 +31,7 @@ const Webprojects = () => {
               <div className="d-inline-block flex-column py-2">
                   <div className="d-inline project-title px-2">APPLE CLONE</div>
                   <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                  <a href="https://apple-homepage-clone-eight.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
                     <img src={appleclone} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
@@ -52,7 +52,7 @@ const Webprojects = () => {
                 <div className="d-inline-block flex-column py-2">
                   <div className="d-inline project-title px-2">CARD MEMORY GAME</div>
                   <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                  <a href="https://jquery-card-memory-game.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
                     <img src={cardmemory} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
@@ -64,7 +64,7 @@ const Webprojects = () => {
               <div className="d-inline-block flex-column py-2">
                   <div className="d-inline project-title px-2">P5 STYLE CHATBOX</div>
                   <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                  <a href="https://jquery-p5style-chatbox-design.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
                     <img src={chatbox} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>

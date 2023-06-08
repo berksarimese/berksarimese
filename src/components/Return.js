@@ -27,14 +27,14 @@ import '../styles/App.css'
       <div className='col-3' style={{borderLeft:'1px solid #EAFC88',borderRight:'1px solid #EAFC88'}}></div>
       </div>
       <div className={`position-fixed px-1 py-2 noselect burger ${burger ? 'burger-open' : ''}`}>
-        <a href='#' className='burger-item'>ABOUT ME</a>
-        <a href='#' className='burger-item'>WEB PROJECTS</a>
-        <a href='#' className='burger-item'>GAME PROJECTS</a>
+        <a href='#aboutsec' className='burger-item'>ABOUT ME</a>
+        <a href='#websec' className='burger-item'>WEB PROJECTS</a>
+        <a href='#gamesec' className='burger-item'>GAME PROJECTS</a>
         <a href='#' className='burger-item'>CONTACT</a>
         <a href='#' className='burger-item'></a>
-        <a href='#' className='burger-item'>LINKED IN</a>
-        <a href='#' className='burger-item'>GITHUB</a>
-        <a href='#' className='burger-item'>SOCIAL</a>
+        <a href='https://www.linkedin.com/in/berk-sar%C4%B1me%C5%9Fe-8b4a9a234/' target="_blank" className='burger-item'>LINKED IN</a>
+        <a href='https://github.com/berksarimese' target="_blank" className='burger-item'>GITHUB</a>
+        <a href='https://www.instagram.com/berksarimese/' target="_blank" className='burger-item'>SOCIAL</a>
         <div onClick={() => (burgerOpen())} className='position-absolute d-flex justify-content-center align-items-center t-style-1 burger-button' style={{fontSize:'18px'}}> |-//-| </div>
       </div>
     </div>

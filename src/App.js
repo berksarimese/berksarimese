@@ -32,9 +32,12 @@ function App() {
   return (
     <div className="container-fluid p-0 m-0 bg-dark" style={{overflow:'hidden'}}>
       <Navbar />
+      <a id="aboutsec" className="position-absolute d-hidden"/>
       <Hero />
+      <a id="websec" className="position-absolute d-hidden"/>
       <Textslider text = 'WEB' text2 = 'PROJECTS' color = 'bg-green' />
       <Webprojects />
+      <a id="gamesec" className="position-absolute d-hidden"/>
       <Gamevideo />
       <Textslider text = 'GAME' text2 = 'PROJECTS' color = 'bg-green' />
       <Gameprojects />

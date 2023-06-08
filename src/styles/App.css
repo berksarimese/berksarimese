@@ -5,6 +5,10 @@
     background: linear-gradient(94deg, rgba(53,61,64,1) 0%, rgba(14,21,29,1) 100%);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 div {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
