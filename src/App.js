@@ -3,19 +3,11 @@ import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Return from "./components/Return";
 import './styles/App.css'
-import hero from './media/hero.jpg'
-import bgone from './media/bgone.jpg'
-import appleclone from './media/appleclone.jpg'
-import projectweather from './media/projectweather.jpg'
-import cardmemory from './media/cardmemory.jpg'
-import chatbox from './media/chatbox.jpg'
-import sidebar from './media/sidebar.png'
-import projectz from './media/projectz.jpg'
-import sorcep from './media/sorcep.jpg'
-import ohsheep from './media/ohsheep.jpg'
-import emptyproject from './media/emptyproject.jpg'
-import gvideo from './media/gvideo.mp4'
 import Textslider from "./components/Textslider";
+import Hero from "./components/Hero";
+import Webprojects from "./components/Webprojects";
+import Gamevideo from "./components/Gamevideo";
+import Gameprojects from "./components/Gameprojects";
 
 
 
@@ -40,200 +32,13 @@ function App() {
   return (
     <div className="container-fluid p-0 m-0 bg-dark" style={{overflow:'hidden'}}>
       <Navbar />
-      <div className="d-flex justify-content-center align-items-center box-height" style={{backgroundImage:`url(${hero})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
-        <div className="col-8 text-center hero-title">HI, I'M BERK SARIMEŞE</div>
-      </div>
-
-      <div className="position-relative d-flex flex-column justify-content-center align-items-center box-height" style={{backgroundImage:`url(${bgone})`, backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
-        <div className="d-flex flex-column h-100" style={{backgroundColor:'rgba(0,0,0,0.4)'}}>
-          <div className="text-center line-title">ABOUT-ME</div>
-          <div className="d-flex justify-content-center about-padding" style={{overflow:'hidden'}}>
-            
-              <div className="position-relative col-11 t-style-1 px-3 py-3" style={{borderRight:'1px solid #EAFC88', borderLeft:'1px solid #EAFC88', zIndex:'2', backgroundColor:'rgba(0,0,0,0)'}}>
-              I'm a former <span className="yellow">Game Developer</span> switched to <span className="green">Frontend Developer</span> and i have been trying to improve myself in the web field for almost one year. 
-              Until now, I did an internship and I have done some projects related to this field as much as I can and added them to my github account. 
-              I generally worked with <span className="green">Html, Css, Javascript, Jquery, React.js, Bootstrap, Liquid, Shopify, Wordpress, Wix, Webflow.</span> Other technologies i use
-              instead of web development are <span className="yellow">Gamemaker Studio, Vegas Pro, Photoshop, Lightroom, Aseprite.</span>
-              
-              
-              {/* <div className="position-absolute border-style" style={{zIndex:'-1', height:'120%', width:'10%', top:'-15px', left:'0%', backgroundColor:'rgba(0,0,0,0.4)'}}></div> */}
-              
-              </div>
-    
-          </div>
-        </div>
-      </div>
-      
+      <Hero />
       <Textslider text = 'WEB' text2 = 'PROJECTS' color = 'bg-green' />
-
-      <div className="d-flex flex-column">
-        <div className="d-flex flex-column w-100 h-100" style={{backgroundColor:'rgba(0,0,0,0.4)'}}>
-          
-          {/* FIRST COL */}
-          <div className="col-12 d-flex flex-row w-100 h-100">
-            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
-            <div className="col-10 d-md-flex flex-row">
-
-              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderLeft: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
-                <div className="d-inline-block justify-content-center align-items-center flex-column py-2">
-                  <div className="d-inline project-title px-2">PROJECT WEATHER</div>
-                  <div className="d-flex h-100 py-1">
-                    <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={projectweather} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
-                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
-                  </div>
-                  <div className="project-text"> this responsive react project about getting current and future weather information. used <span className="purple">react.js, bootstrap, openWeather api, axios and framer motion</span></div>
-                </div>
-              </div>
-
-              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderRight: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
-              <div className="d-inline-block flex-column py-2">
-                  <div className="d-inline project-title px-2">APPLE CLONE</div>
-                  <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={appleclone} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
-                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
-                  </div>
-                  <div className="project-text">this is a full responsive apple homepage clone project made with <span className="purple">html, css, jquery</span></div>
-                </div>
-              </div>
-            </div>
-            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
-          {/* <div className="position-absolute border-style" style={{zIndex:'1', height:'120%', width:'10%', top:'-15px', left:'0%', backgroundColor:'rgba(0,0,0,0.4)'}}></div> */}
-          </div>
-
-          {/* SECOND COL */}
-          <div className="d-flex flex-row w-100 h-100">
-            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
-            <div className="col-10 d-md-flex flex-row">
-
-              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderLeft: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
-                <div className="d-inline-block flex-column py-2">
-                  <div className="d-inline project-title px-2">CARD MEMORY GAME</div>
-                  <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={cardmemory} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
-                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
-                  </div>
-                  <div className="project-text"> card memory game made with <span className="purple">html, css and jquery.</span> i pulled images from <span className="purple">local json file</span> and list them. game goal is opening same two images at the same time.</div>
-                </div>
-              </div>
-
-              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderRight: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
-              <div className="d-inline-block flex-column py-2">
-                  <div className="d-inline project-title px-2">P5 STYLE CHATBOX</div>
-                  <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={chatbox} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
-                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
-                  </div>
-                  <div className="project-text" style={{paddingBottom:'35px'}}>i made persona 5 style <span className="purple">chatbox design</span> with <span className="purple">html, css and jquery.</span> there are random users, avatars and profile colors 
-                    i pulled them from <span className="purple">local json file.</span> when we pressed new message random user sends random message. and we can answer with the textbox below.</div>
-                </div>
-                
-              </div>
-
-            </div>
-            
-            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
-          </div>
-
-          
-
-          
-        </div>
-      </div>
-
+      <Webprojects />
+      <Gamevideo />
       <Textslider text = 'GAME' text2 = 'PROJECTS' color = 'bg-green' />
-      <div className="position-relative d-flex w-100 bg-dark" style={{height:'40vw', overflow:'hidden'}}>
-        <video className="video-section" autoPlay loop muted playsInline>
-          <source src={gvideo} type='video/mp4'></source>
-        </video>
-      </div>
-      <div className="d-flex flex-column">
-        <div className="d-flex flex-column w-100 h-100" style={{backgroundColor:'rgba(0,0,0,0.4)'}}>
-          
-          {/* FIRST COL */}
-          <div className="col-12 d-flex flex-row w-100 h-100">
-            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
-            <div className="col-10 d-md-flex flex-row">
-
-              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderLeft: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
-                <div className="d-inline-block justify-content-center align-items-center flex-column py-2">
-                  <div className="d-inline project-title px-2">PROJECT - Z</div>
-                  <div className="d-flex h-100 py-1">
-                    <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={projectz} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
-                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
-                  </div>
-                  <div className="project-text"> project-z is a <span className="purple">2d, platform and h&s based pc game.</span> i designed the game and worked alone for a long time, but after a while a friend 
-                    joined to me and he started working on ui, database, light engine and optimization. all the other <span className="purple">Animations, coding, story, level 
-                    design etc was on me.</span> while working on it we founded krystal arts and still working on our big project. </div>
-                </div>
-              </div>
-
-              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderRight: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
-              <div className="d-inline-block flex-column py-2">
-                  <div className="d-inline project-title px-2">OH SHEEP!</div>
-                  <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={ohsheep} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
-                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
-                  </div>
-                  
-                  <div className="project-text"> oh sheep! is a <span className="purple">mini fast paced arcade game</span> where you gather and protect sheep from monstrous creatures for the highest score! 
-                    it's a game jam product developed by two different team which is four people gathered in the Jam field. <span className="purple">My role was animation 
-                    and guidance.</span></div>
-                </div>
-              </div>
-            </div>
-            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
-          {/* <div className="position-absolute border-style" style={{zIndex:'1', height:'120%', width:'10%', top:'-15px', left:'0%', backgroundColor:'rgba(0,0,0,0.4)'}}></div> */}
-          </div>
-
-          {/* SECOND COL */}
-          <div className="d-flex flex-row w-100 h-100">
-            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
-            <div className="col-10 d-md-flex flex-row">
-
-              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderLeft: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
-                <div className="d-inline-block flex-column py-2">
-                  <div className="d-inline project-title px-2">OH SHEEP!</div>
-                  <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={sorcep} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
-                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
-                  </div>
-                  <div className="project-text"> sorcep is a <span className="purple">question based mobile game</span> which contains different categories for different situations. made with <span className="purple">gml language.</span></div>
-                </div>
-              </div>
-
-              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderRight: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
-              <div className="d-inline-block flex-column py-2">
-                  <div className="d-inline project-title px-2">???</div>
-                  <div className="d-flex h-100 py-1">
-                  <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={emptyproject} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
-                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
-                  </div>
-                  <div className="project-text" style={{paddingBottom:'35px'}}>???????????? ?????????????????? ??????????????? ?????? ??? ????????? ?????? ??????</div>
-                </div>
-                
-              </div>
-
-            </div>
-            
-            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
-          </div>
-
-          
-
-          
-        </div>
-      </div>
-
-      <Return scrollY = {scrollY} />
-      
+      <Gameprojects />
+      <Return scrollY = {scrollY} /> 
     </div>
   );
 }
