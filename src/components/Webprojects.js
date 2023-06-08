@@ -23,7 +23,7 @@ const Webprojects = () => {
                     <img src={projectweather} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
-                  <div className="project-text"> this responsive react project about getting current and future weather information. used <span className="purple">react.js, bootstrap, openWeather api, axios and framer motion</span></div>
+                  <div className="project-text"> This responsive react project about <span className="purple">getting current and future weather information.</span> Used <span className="purple">React.js, Bootstrap, OpenWeather API, Axios and Framer Motion</span></div>
                 </div>
               </div>
 
@@ -35,7 +35,7 @@ const Webprojects = () => {
                     <img src={appleclone} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
-                  <div className="project-text">this is a full responsive apple homepage clone project made with <span className="purple">html, css, jquery</span></div>
+                  <div className="project-text">This is a full responsive <span className="purple">Apple Homepage Clone</span> project made with <span className="purple">HTML CSS, Jquery</span></div>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Webprojects = () => {
                     <img src={cardmemory} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
-                  <div className="project-text"> card memory game made with <span className="purple">html, css and jquery.</span> i pulled images from <span className="purple">local json file</span> and list them. game goal is opening same two images at the same time.</div>
+                  <div className="project-text"> Card Memory game made with <span className="purple">HTML, CSS and Jquery.</span> I pulled images from <span className="purple">local JSON file</span> and list them. Game goal is opening same two images at the same time.</div>
                 </div>
               </div>
 
@@ -68,8 +68,8 @@ const Webprojects = () => {
                     <img src={chatbox} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
-                  <div className="project-text" style={{paddingBottom:'35px'}}>i made persona 5 style <span className="purple">chatbox design</span> with <span className="purple">html, css and jquery.</span> there are random users, avatars and profile colors 
-                    i pulled them from <span className="purple">local json file.</span> when we pressed new message random user sends random message. and we can answer with the textbox below.</div>
+                  <div className="project-text" style={{paddingBottom:'35px'}}>I made Persona 5 style <span className="purple">chatbox design</span> with <span className="purple">HTML, CSS and Jquery.</span> There are random users, avatars and profile colors 
+                    i pulled them from <span className="purple">local JSON file.</span> When we pressed new message random user sends random message, and we can answer with the textbox below.</div>
                 </div>
                 
               </div>

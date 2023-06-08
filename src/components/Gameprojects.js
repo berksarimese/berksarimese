@@ -23,9 +23,9 @@ const Gameprojects = () => {
                 <img src={projectz} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                 <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
               </div>
-              <div className="project-text"> project-z is a <span className="purple">2d, platform and h&s based pc game.</span> i designed the game and worked alone for a long time, but after a while a friend 
+              <div className="project-text"> Project - Z is a <span className="purple">2D, Platform and H&S based PC Game.</span> I designed the game and worked alone for a long time, but after a while a friend 
                 joined to me and he started working on ui, database, light engine and optimization. all the other <span className="purple">Animations, coding, story, level 
-                design etc was on me.</span> while working on it we founded krystal arts and still working on our big project. </div>
+                design etc was on me.</span> While working on it we founded <span className="purple">Krystal Arts</span> and still working on our big project. </div>
             </div>
           </div>
 
@@ -38,8 +38,8 @@ const Gameprojects = () => {
                 <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
               </div>
               
-              <div className="project-text"> oh sheep! is a <span className="purple">mini fast paced arcade game</span> where you gather and protect sheep from monstrous creatures for the highest score! 
-                it's a game jam product developed by two different team which is four people gathered in the Jam field. <span className="purple">My role was animation 
+              <div className="project-text"> Oh Sheep! is a <span className="purple">mini fast paced arcade game</span> where you gather and protect sheep from monstrous creatures for the highest score! 
+                It's a GAME JAM product developed by two different team which is four people gathered in the Jam field. <span className="purple">My role was animation 
                 and guidance.</span></div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const Gameprojects = () => {
                 <img src={sorcep} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                 <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
               </div>
-              <div className="project-text"> sorcep is a <span className="purple">question based mobile game</span> which contains different categories for different situations. made with <span className="purple">gml language.</span></div>
+              <div className="project-text"> SORCEP is a <span className="purple">question based mobile game</span> which contains different categories for different situations. Made with <span className="purple">GameMaker Engine and GML language.</span></div>
             </div>
           </div>
 
