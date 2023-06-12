@@ -19,8 +19,8 @@ const Gameprojects = () => {
             <div className="d-inline-block justify-content-center align-items-center flex-column py-2">
               <div className="d-inline project-title px-2">PROJECT - Z</div>
               <div className="d-flex h-100 py-1">
-                <a href="https://drive.google.com/file/d/1Fp1gPSKlqLhQF5THRhsi3-YQMcRsop71/preview" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                <img src={projectz} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+                <a rel="noopener noreferrer" href="https://drive.google.com/file/d/1Fp1gPSKlqLhQF5THRhsi3-YQMcRsop71/preview" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                <img src={projectz} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                 <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
               </div>
               <div className="project-text"> Project - Z is a <span className="purple">2D, Platform and H&S based PC Game.</span> I designed the game and worked alone for a long time, but after a while a friend 
@@ -33,8 +33,8 @@ const Gameprojects = () => {
           <div className="d-inline-block flex-column py-2">
               <div className="d-inline project-title px-2">OH SHEEP!</div>
               <div className="d-flex h-100 py-1">
-              <a href="https://store.steampowered.com/app/2062190/Oh_Sheep/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                <img src={ohsheep} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+              <a rel="noopener noreferrer" href="https://store.steampowered.com/app/2062190/Oh_Sheep/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                <img src={ohsheep} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                 <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
               </div>
               
@@ -55,13 +55,13 @@ const Gameprojects = () => {
 
           <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderLeft: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
             <div className="d-inline-block flex-column py-2">
-              <div className="d-inline project-title px-2">OH SHEEP!</div>
+              <div className="d-inline project-title px-2">SORCEP</div>
               <div className="d-flex h-100 py-1">
-              <a href="https://play.google.com/store/apps/details?id=krystalarts.com.KrystalArts.SorCep&pli=1" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                <img src={sorcep} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+              <a rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=krystalarts.com.KrystalArts.SorCep&pli=1" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                <img src={sorcep} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                 <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
               </div>
-              <div className="project-text"> SORCEP is a <span className="purple">question based mobile game</span> which contains different categories for different situations. Made with <span className="purple">GameMaker Engine and GML language.</span></div>
+              <div className="project-text"> SorCep is a <span className="purple">question based mobile game</span> which contains different categories for different situations. Made with <span className="purple">GameMaker Engine and GML language.</span></div>
             </div>
           </div>
 
@@ -69,8 +69,8 @@ const Gameprojects = () => {
           <div className="d-inline-block flex-column py-2">
               <div className="d-inline project-title px-2">???</div>
               <div className="d-flex h-100 py-1">
-              <a href="#" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                <img src={emptyproject} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+              <a rel="noopener noreferrer" href="#gamesec" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                <img src={emptyproject} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                 <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
               </div>
               <div className="project-text" style={{paddingBottom:'35px'}}>???????????? ?????????????????? ??????????????? ?????? ??? ????????? ?????? ??????</div>

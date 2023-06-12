@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
 
+body {
+    font-family: Teko, Roboto, Arial, Verdana;
+}
+
 .nav-color {
     background: rgb(53,61,64);
     background: linear-gradient(94deg, rgba(53,61,64,1) 0%, rgba(14,21,29,1) 100%);
@@ -291,6 +295,65 @@ a {
     animation-delay: -20s;
 }
 
+.contact-title {
+    font-family: Teko;
+    font-size: 15vw;
+    font-weight: 800;
+    color: #C2FE0C;
+    width: 100%;
+    text-shadow: 0px 0px 0px rgba(0,0,0,1);
+}
+
+.contact-label {
+    color: white;
+    font-size: 20px;
+}
+
+.contact-input {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 5px;
+}
+
+.contact-text {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 1;
+    min-height: 150px;
+    font-family: Roboto;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Teko;
+    font-size: 3vw;
+    font-weight: 400;
+    width: 75%;
+    background: #C2FE0C;
+    padding: 5px;
+    color: black;
+    border: none;
+    margin-top: 5px;
+}
+
+.contact-button:hover {
+    box-sizing: border-box;
+    border: 1px solid  #EAFC88;
+    background: black;
+    color: #C2FE0C;
+}
+
 @keyframes animate {
     0% {
         transform: translateX(100%);
@@ -378,6 +441,15 @@ a {
         writing-mode: vertical-rl;
     }
 
+    .contact-input {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .contact-text {
+        font-size: 15px;
+    }
+
  }
 
  @media (max-width:576px) { 
@@ -441,5 +513,14 @@ a {
         line-height: 1;
         letter-spacing: 0px;
         writing-mode: vertical-rl;
+    }
+
+    .contact-input {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .contact-text {
+        font-size: 15px;
     }
  }
