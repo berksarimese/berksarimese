@@ -22,7 +22,7 @@ const Hero = () => {
                 </div>
                 <div className='d-flex flex-row justify-content-center gap-3 py-3 px-5'>
                       <a href={berksarimesecv} download className='about-button'>CLEAN RESUME</a>
-                      <a href='https://github.com/berksarimese' target="_blank" className=' about-button'>GITHUB</a>
+                      <a rel="noopener noreferrer" href='https://github.com/berksarimese' target="_blank" className=' about-button'>GITHUB</a>
                     </div>
                 </div>
         </div>

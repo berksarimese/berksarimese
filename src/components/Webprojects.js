@@ -19,8 +19,8 @@ const Webprojects = () => {
                 <div className="d-inline-block justify-content-center align-items-center flex-column py-2">
                   <div className="d-inline project-title px-2">PROJECT WEATHER</div>
                   <div className="d-flex h-100 py-1">
-                    <a href="https://projectweather.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={projectweather} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+                    <a rel="noopener noreferrer" href="https://projectweather.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                    <img src={projectweather} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
                   <div className="project-text"> This responsive react project about <span className="purple">getting current and future weather information.</span> Used <span className="purple">React.js, Bootstrap, OpenWeather API, Axios and Framer Motion</span></div>
@@ -31,8 +31,8 @@ const Webprojects = () => {
               <div className="d-inline-block flex-column py-2">
                   <div className="d-inline project-title px-2">APPLE CLONE</div>
                   <div className="d-flex h-100 py-1">
-                  <a href="https://apple-homepage-clone-eight.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={appleclone} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+                  <a rel="noopener noreferrer" href="https://apple-homepage-clone-eight.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                    <img src={appleclone} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
                   <div className="project-text">This is a full responsive <span className="purple">Apple Homepage Clone</span> project made with <span className="purple">HTML CSS, Jquery</span></div>
@@ -52,8 +52,8 @@ const Webprojects = () => {
                 <div className="d-inline-block flex-column py-2">
                   <div className="d-inline project-title px-2">CARD MEMORY GAME</div>
                   <div className="d-flex h-100 py-1">
-                  <a href="https://jquery-card-memory-game.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={cardmemory} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+                  <a rel="noopener noreferrer" href="https://jquery-card-memory-game.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                    <img src={cardmemory} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
                   <div className="project-text"> Card Memory game made with <span className="purple">HTML, CSS and Jquery.</span> I pulled images from <span className="purple">local JSON file</span> and list them. Game goal is opening same two images at the same time.</div>
@@ -64,8 +64,8 @@ const Webprojects = () => {
               <div className="d-inline-block flex-column py-2">
                   <div className="d-inline project-title px-2">P5 STYLE CHATBOX</div>
                   <div className="d-flex h-100 py-1">
-                  <a href="https://jquery-p5style-chatbox-design.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
-                    <img src={chatbox} className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+                  <a rel="noopener noreferrer" href="https://jquery-p5style-chatbox-design.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                    <img src={chatbox} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
                   <div className="project-text" style={{paddingBottom:'35px'}}>I made Persona 5 style <span className="purple">chatbox design</span> with <span className="purple">HTML, CSS and Jquery.</span> There are random users, avatars and profile colors 
