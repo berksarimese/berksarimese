@@ -3,7 +3,9 @@ import appleclone from '../media/appleclone.jpg'
 import projectweather from '../media/projectweather.jpg'
 import cardmemory from '../media/cardmemory.jpg'
 import chatbox from '../media/chatbox.jpg'
+import pomodoro from '../media/pomodoro.jpg'
 import sidebar from '../media/sidebar.png'
+import emptyproject from '../media/emptyproject.jpg'
 
 const Webprojects = () => {
   return (
@@ -44,6 +46,40 @@ const Webprojects = () => {
           </div>
 
           {/* SECOND COL */}
+          <div className="col-12 d-flex flex-row w-100 h-100">
+            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
+            <div className="col-10 d-md-flex flex-row">
+
+              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderLeft: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
+                <div className="d-inline-block justify-content-center align-items-center flex-column py-2">
+                  <div className="d-inline project-title px-2">PROJECT POMODORO</div>
+                  <div className="d-flex h-100 py-1">
+                    <a rel="noopener noreferrer" href="https://projectpomodoro.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                    <img src={pomodoro} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
+                  </div>
+                  <div className="project-text">Project Pomodoro is an <span className='purple'>app for The Pomodoro time management method.</span> Made with <span className='purple'>React.js and Redux</span> to test Redux</div>
+                </div>
+              </div>
+
+              <div className="col-md-6 bg-light px-1" style={{boxSizing: 'border-box', borderRight: 'solid 1px rgba(0, 0, 0, 0.4)', paddingTop:'50px'}}>
+                <div className="d-inline-block flex-column py-2">
+                  <div className="d-inline project-title px-2">???</div>
+                  <div className="d-flex h-100 py-1">
+                  <a rel="noopener noreferrer" href="#websec" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                    <img src={emptyproject} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
+                    <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
+                  </div>
+                  <div className="project-text" style={{paddingBottom:'35px'}}>???????????? ?????????????????? ??????????????? ?????? ??? ????????? ?????? ??????</div>
+                </div>
+            
+            </div>
+            </div>
+            <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
+          {/* <div className="position-absolute border-style" style={{zIndex:'1', height:'120%', width:'10%', top:'-15px', left:'0%', backgroundColor:'rgba(0,0,0,0.4)'}}></div> */}
+          </div>
+
+          {/* THIRD COL */}
           <div className="d-flex flex-row w-100 h-100">
             <div className="d-flex bg-light w-100" style={{backgroundImage:`url(${sidebar})`,backgroundPosition: 'center', backgroundRepeat:'no-repeat', backgroundSize:'contain'}}></div>
             <div className="col-10 d-md-flex flex-row">
