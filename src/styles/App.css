@@ -251,6 +251,7 @@ a {
 
 .project-opacity {
     opacity: 1;
+    aspect-ratio: 16/9;
 }
 
 .project-opacity:hover {
