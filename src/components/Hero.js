@@ -15,9 +15,10 @@ const Hero = () => {
                 <div className="d-flex justify-content-center about-padding" style={{overflow:'hidden'}}>
                     <div className="position-relative col-11 t-style-1 px-3 py-3" style={{borderRight:'1px solid #EAFC88', borderLeft:'1px solid #EAFC88', zIndex:'2', backgroundColor:'rgba(0,0,0,0)'}}>
                     I'm a former <span className="yellow">Game Developer</span> switched to <span className="green">Frontend Developer</span> and i have been trying to improve myself in the web field for almost one year. 
-                    Until now, I did an internship and I have done some projects related to this field as much as I can and added them to my github account. 
-                    I generally worked with <span className="green">Html, Css, Javascript, Jquery, React.js, Redux, TypeScript, Bootstrap, Liquid, Shopify, Wordpress, Wix, Webflow.</span> Other technologies i use
-                    instead of web development are <span className="yellow">Gamemaker Studio, Vegas Pro, Photoshop, Lightroom, Aseprite.</span>
+                    Until now, I worked on Turkcell projects and created Javascript based games for Turkcell BIP application, also worked on Shopify Themes. I have done some projects related to this field as much as I can and added them to my github account. 
+                    I generally worked with <span className="green" style={{textDecoration:'underline'}}>HTML, CSS, Javascript, Jquery, React.js, TypeScript, Redux, React Router Dom, Axios, Ant Design, 
+                    Bootstrap, Liquid, Shopify, Wordpress, Wix, Webflow.</span> Other technologies i use instead of web development are <span className="yellow">Gamemaker Studio, 
+                    Vegas Pro, Photoshop, Lightroom, Aseprite.</span>
                     </div>
                 </div>
                 <div className='d-flex flex-row justify-content-center gap-3 py-3 px-5'>
