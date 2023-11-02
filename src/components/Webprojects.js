@@ -22,7 +22,7 @@ const Webprojects = () => {
                 <div className="d-inline-block justify-content-center align-items-center flex-column py-2">
                   <div className="d-inline project-title px-2">NETFLIX CLONE</div>
                   <div className="d-flex h-100 py-1">
-                    <a rel="noopener noreferrer" href="https://netflixclone-berk.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
+                    <a rel="noopener noreferrer" href="https://berk-nf.vercel.app/" target="_blank" className="d-flex project-title justify-content-center align-items-center project-link">|- click -|</a>
                     <img src={netflixclone} alt='' className='d-flex px-1 project-opacity' style={{width:'85%'}} />
                     <div className="d-flex" style={{width:'0.3%', background:'black'}}></div>
                   </div>
