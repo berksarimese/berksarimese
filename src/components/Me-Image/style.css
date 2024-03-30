@@ -1,0 +1,40 @@
+canvas {
+    display: block;
+  }
+  
+  #imageContainer {
+    aspect-ratio: 1/1;
+    width: 50%;
+    bottom: 35px;
+    right: 35px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    filter: saturate(0);
+    transition: all ease 0.5s;
+    opacity: 0.3;
+  }
+
+  #imageContainer:hover {
+    opacity: 0.6;
+  }
+  
+  #imageContainer:hover {
+    filter: saturate(100%);
+  }
+  
+  #imageContainer > * {
+    position: absolute;
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    #imageContainer {
+      display: none;
+    }
+  }
