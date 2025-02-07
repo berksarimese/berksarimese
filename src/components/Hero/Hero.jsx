@@ -5,8 +5,8 @@ const Hero = () => {
     <div id='start' className='hero'>
         <div className="title-container">
             <div className="title">Berk</div>
-            <div className="title">Sarımeşe</div>
-            <div className="desc">Front-End Developer - <span className='highlight'>Pet Project:</span> Game Developer</div>
+            <div className="title">Sarımese</div>
+            <div className="desc">Front-End Developer - <span className='highlight'>Pet Project:</span> Indie Game Development</div>
             <a href='#projects'><button className="button">View The Projects →</button></a>
         </div>
         <div className="sliding-down">

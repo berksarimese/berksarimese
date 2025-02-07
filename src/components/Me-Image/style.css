@@ -15,6 +15,7 @@ canvas {
     filter: saturate(0);
     transition: all ease 0.5s;
     opacity: 0.3;
+    max-height: 600px;
   }
 
   #imageContainer:hover {

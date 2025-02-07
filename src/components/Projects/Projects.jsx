@@ -30,11 +30,11 @@ const Projects = ({propsList}) => {
         <div className="projects-container">
             <div className="project-menu-title">{typeTitle}</div>
             <div style={{display:showWeb}}>
-                {webProjects.map((web,index) => {
+                {webProjects.map((web) => {
                     return(
                         <div key={web.id} className="projects-item">
                             <div className='image-container'>
-                                <img style={{width:'100%'}} src={web.img} alt="" />
+                                <img style={{height:'100%'}} src={web.img} alt="" />
                             </div>
                             <div className="project-desc">{web.description}</div>
                             <a href={web.url} target="_blank" style={{width:'100%'}}>
@@ -52,11 +52,11 @@ const Projects = ({propsList}) => {
                 })}
             </div>
             <div style={{display:showGame}}>
-                {gameProjects.map((game,index) => {
+                {gameProjects.map((game) => {
                     return(
                         <div key={game.id} className="projects-item">
                             <div className='image-container'>
-                                <img style={{width:'100%'}} src={game.img} alt="" />
+                                <img style={{height:'100%'}} src={game.img} alt="" />
                             </div>
                             <div className="project-desc">{game.description}</div>
                             <a href={game.url} target="_blank" style={{width:'100%'}}>

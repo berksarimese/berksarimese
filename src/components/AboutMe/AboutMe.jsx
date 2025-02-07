@@ -12,7 +12,7 @@ const AboutMe = () => {
           projects where I can continuously improve myself, and I continue to seek such opportunities. In this dynamic and ever-evolving industry, 
           I enjoy learning new technologies and creating engaging content.
           </div>
-          <div className='title-mini'>Pet Project: Game Development</div>
+          <div className='title-mini'>Pet Project: Indie Game Development</div>
           <div className="desc-mini">
           I took my first steps into the software industry through <a className='link-in-text' href='#projects'>Game Development</a>. During this journey, as a team we have completed several mini 
           projects and are currently working on a large-scale project --currently i left coding to my teammate, i'm working on art and animation position--. 

@@ -71,50 +71,56 @@ export const gameProjects = [
 ]
 
 export const involvedProjects = [
-    { 
+    {
         id:1,
+        projectName:'Cylana',
+        description:"Front-End Development",
+        url:'https://cylana.app/'
+    },
+    {
+        id:2,
+        projectName:'Cylana Website',
+        description:"Front-End Development",
+        url:'https://cylana.io/'
+    },
+    { 
+        id:3,
         projectName:'Turkcell AdPlus Kobi',
         description:"Front-End Development",
         url:' https://adpluskobi.com/'
     },
     { 
-        id:2,
+        id:4,
         projectName:'Turkcell Bip Amiral Battı',
         description:"Pure HTML/JS Game Development",
         url:''
     },
     { 
-        id:3,
+        id:5,
         projectName:'Turkcell Bip Bowling',
         description:"Pure HTML/JS Game Development",
         url:''
     },
     { 
-        id:4,
-        projectName:'Cybersecurity Project',
-        description:"Front-End Development",
-        url:''
-    },
-    { 
-        id:5,
+        id:6,
         projectName:'Kiss The Hippo - Shopify',
         description:"Front-End Development",
         url:'https://kissthehippo.com/'
     },
     { 
-        id:6,
+        id:7,
         projectName:'NUDE Glass - Shopify',
         description:"Front-End Development",
         url:'https://eu.nudeglass.com/'
     },
     { 
-        id:7,
+        id:8,
         projectName:'Fethiyecab',
         description:"Webflow",
         url:'https://www.fethiyecab.com/'
     },
     { 
-        id:8,
+        id:9,
         projectName:'Reha Cengizlier',
         description:"WIX",
         url:'https://www.rehacengizlier.com/'
