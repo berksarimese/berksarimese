@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">I am pursuing my career as a Front-End Developer. Throughout my work experience, I have been involved in numerous innovative projects where I can continuously improve myself, and I continue to seek such opportunities. In this dynamic and ever-evolving industry, I enjoy learning new technologies and creating engaging content. I took my first steps into the software industry through Game Development. During this journey, as a team we have completed several mini projects and are currently working on a large-scale project --currently i left coding to my teammate, i'm working on art and animation position--. While I continue my career as a Front-End Developer, I pursue my dream of game development in my spare time.</p>
+<p align="left">I’ve been working actively as a frontend developer for over 2 years, building modern and user-focused web interfaces. I specialize in the React ecosystem, aiming to create scalable, maintainable, and high-performance applications. While keeping usability at the forefront, I enjoy developing innovative, visually engaging, and functional interfaces. I'm a team-oriented, curious developer eager to contribute to every stage of digital product development.</p>
 
 ###
 
